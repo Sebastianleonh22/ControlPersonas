@@ -129,7 +129,7 @@ namespace ControlPersonas
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(648, 45);
+            this.label5.Location = new System.Drawing.Point(607, 44);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 9;
@@ -139,7 +139,7 @@ namespace ControlPersonas
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(649, 75);
+            this.label6.Location = new System.Drawing.Point(608, 74);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 10;
@@ -149,7 +149,7 @@ namespace ControlPersonas
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(648, 113);
+            this.label7.Location = new System.Drawing.Point(607, 112);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 11;
@@ -159,7 +159,7 @@ namespace ControlPersonas
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(648, 148);
+            this.label8.Location = new System.Drawing.Point(607, 147);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 12;
@@ -180,7 +180,7 @@ namespace ControlPersonas
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(508, 45);
+            this.label9.Location = new System.Drawing.Point(467, 44);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(28, 13);
             this.label9.TabIndex = 14;
@@ -190,7 +190,7 @@ namespace ControlPersonas
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(508, 75);
+            this.label10.Location = new System.Drawing.Point(467, 74);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(47, 13);
             this.label10.TabIndex = 15;
@@ -200,7 +200,7 @@ namespace ControlPersonas
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(508, 113);
+            this.label11.Location = new System.Drawing.Point(467, 112);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(47, 13);
             this.label11.TabIndex = 16;
@@ -210,7 +210,7 @@ namespace ControlPersonas
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(508, 148);
+            this.label12.Location = new System.Drawing.Point(467, 147);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(112, 13);
             this.label12.TabIndex = 17;
@@ -220,7 +220,7 @@ namespace ControlPersonas
             // labelEdad
             // 
             this.labelEdad.AutoSize = true;
-            this.labelEdad.Location = new System.Drawing.Point(648, 191);
+            this.labelEdad.Location = new System.Drawing.Point(607, 190);
             this.labelEdad.Name = "labelEdad";
             this.labelEdad.Size = new System.Drawing.Size(41, 13);
             this.labelEdad.TabIndex = 18;
@@ -230,7 +230,7 @@ namespace ControlPersonas
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(511, 190);
+            this.label13.Location = new System.Drawing.Point(470, 189);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(38, 13);
             this.label13.TabIndex = 19;
@@ -242,7 +242,7 @@ namespace ControlPersonas
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(716, 353);
+            this.ClientSize = new System.Drawing.Size(764, 353);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.labelEdad);
             this.Controls.Add(this.label12);
