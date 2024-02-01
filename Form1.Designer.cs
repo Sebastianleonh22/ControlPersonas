@@ -47,6 +47,8 @@ namespace ControlPersonas
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.labelEdad = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtbxDpi
@@ -215,11 +217,34 @@ namespace ControlPersonas
             this.label12.Text = "Fecha de nacimiento: ";
             this.label12.Visible = false;
             // 
+            // labelEdad
+            // 
+            this.labelEdad.AutoSize = true;
+            this.labelEdad.Location = new System.Drawing.Point(648, 191);
+            this.labelEdad.Name = "labelEdad";
+            this.labelEdad.Size = new System.Drawing.Size(41, 13);
+            this.labelEdad.TabIndex = 18;
+            this.labelEdad.Text = "label13";
+            this.labelEdad.Visible = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(511, 190);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(38, 13);
+            this.label13.TabIndex = 19;
+            this.label13.Text = "Edad: ";
+            this.label13.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(716, 353);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.labelEdad);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -239,7 +264,7 @@ namespace ControlPersonas
             this.Controls.Add(this.txtbxNombre);
             this.Controls.Add(this.txtbxDpi);
             this.Name = "Form1";
-            this.Text = "S";
+            this.Text = "Control Personas";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -266,6 +291,8 @@ namespace ControlPersonas
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label labelEdad;
+        private System.Windows.Forms.Label label13;
     }
 }
 
